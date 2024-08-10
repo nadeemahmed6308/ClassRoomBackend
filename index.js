@@ -28,19 +28,3 @@ mongoose.connect(process.env.MONGODB_URI).then(() => {
 app.listen(PORT, () => {
     console.log(`Server started at port no. ${PORT}`);
 })
-
-
-
-//     "multer": "^1.4.5-lts.1",
-//     "path": "^0.12.7"
-
-// # MONGODB_URI = "mongodb+srv://nadeem:nadeem3658@cluster0.eqcs46i.mongodb.net/Sylani-ClassRoom?retryWrites=true&w=majority"
-
-// # npm outdated 
-
-// Check your Internet connection
-// Check any cables and reboot any routers, modems, or other network devices you may be using.
-// Allow Chrome to access the network in your firewall or antivirus settings.
-// If it is already listed as a program allowed to access the network, try removing it from the list and adding it again.
-// If you use a proxy server…
-// Check your proxy settings or contact your network administrator to make sure the proxy server is working. If you don't believe you should be using a proxy server: Go to the Chrome menu > Settings > Show advanced settings… > Change proxy settings… > LAN Settings and deselect "Use a proxy server for your LAN".
